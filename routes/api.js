@@ -15,11 +15,6 @@ router.get('/weather', function(req, res, next) {
       }
 
       res.json(data.query.results.channel.item);
-
-      // var location = data.query.results.channel.location;
-      // var condition = data.query.results.channel.item.condition;
-      //
-      // console.log('The current weather in ' + location.city + ', ' + location.region + ' is ' + condition.temp + ' degrees.');
     });
 
 });
