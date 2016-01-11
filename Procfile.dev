@@ -1,0 +1,1 @@
+web: DEBUG=mirrormirror:* nodemon bin/www
